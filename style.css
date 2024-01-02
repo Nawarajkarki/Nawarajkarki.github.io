@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #d1d1d1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #1D1D20;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-container {
+
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+
+nav{
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+nav .logo{
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ion-icon{
+    color: #777;
+    height: 90px;
+    width: 90px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link > a >  ion-icon{
+    height: 60px;
+    width: 60px;
+}
+.nav-link:not(:last-child) {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+
+
+.main-container-inner{
+    width: 100%;
+    height: 80%;
+    align-items: center;
+}
+
+.welcome{
+    width: 70%;
+}
+.welcome > h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.welcome .inner-div {
+    position: relative;
+    padding: 10px 25px 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.welcome .inner-div::before {
+    content: "";
+    position: absolute;
+    top: -5px; /* Adjust as needed */
+    bottom: -5px; /* Adjust as needed */
+    left: 0;
+    width: 5px;
+    background: rgb(0, 242, 255);
+    border-radius: 16px;
+}
+
+.inner-div > p:not(:last-child){
+    margin-bottom: 10px;
+}
+
+
+.projects{
+    flex: 1;
+    display: none;
+}
+
+
+
+
+
+
+
+
+.footer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer-text{
+    font-size: 12px;
+    font-family: 300;
+}
