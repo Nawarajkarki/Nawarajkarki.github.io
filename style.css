@@ -51,7 +51,7 @@ nav .logo{
 }
 
 
-ion-icon{
+.logo img{
     color: #777;
     height: 90px;
     width: 90px;
@@ -81,7 +81,7 @@ ion-icon{
 }
 .welcome > h1{
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .welcome .inner-div {
