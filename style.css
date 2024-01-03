@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color: #d1d1d1;
     font-family: 'Montserrat', sans-serif;
+    border: 1px solid white;
 }
 
 
@@ -50,19 +51,20 @@ nav .logo{
     align-items: center;
 }
 
-
-.logo img{
-    color: #777;
-    height: 90px;
-    width: 90px;
-}
-.nav-link{
+nav > div{
     display: flex;
     align-items: center;
 }
+
+.logo img{
+    color: #777;
+    height: 50px;
+    width: 50px;
+}
+
 .nav-link > a >  ion-icon{
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
 }
 .nav-link:not(:last-child) {
     margin-right: 10px; /* Adjust as needed */
